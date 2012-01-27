@@ -1,5 +1,5 @@
-﻿<project name = "expression-client" default = "package" basedir = ".">
-	<description>Краткое описание проекта и его целей.</description>
+﻿<project name = "" default = "package" basedir = ".">
+    <description>Краткое описание проекта и его целей.</description>
     <property name = "src" location = "src"/>
     <property name = "build" location = "build"/>
     <property name = "target" location = "target"/>
@@ -69,7 +69,7 @@
         </junit>
     </target>
     <target name = "run" depends = "package" description = "Запускает сервер">
-    	<java classname = "${main-class}" fork = "fork">
+    	<java classname = "${main-class}" fork = "true">
         	<classpath>
         	    <fileset dir = "${target}">
 					<include name = "*.jar" />
