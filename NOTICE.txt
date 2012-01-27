@@ -1,0 +1,14 @@
+   Expression Client
+   Copyright 2012 dev.kimrgrey.org
+
+   This product includes software developed at
+   The Apache Software Foundation (http://www.apache.org/).
+   
+   Logging support is provided by SLF4J library, which is used according the terms of MIT License.
+   The original software is available from http://www.slf4j.org/index.html.
+   
+   Logging imlementation is provided by Logback, which is used according the terms of LGPL 2.1 License.
+   The original software is available from logback.qos.ch/index.html
+   
+   Unit testing is provided by JUnit, which is used according the terms of Common Public License. 
+   The original software is available from http://www.junit.org/.
